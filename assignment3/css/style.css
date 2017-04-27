@@ -1,0 +1,251 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 960px;
+  min-width: 960px;
+  margin: auto;
+  overflow: auto;
+}
+
+header {
+  background-color: #033048;
+  height: 100px;
+  min-width: 960px;
+}
+
+h1{
+  float:left;
+  line-height: 90px;
+  font-weight: 800;
+  font-size: 32px;
+  color: white;
+}
+nav{
+  float: right;
+}
+nav a{
+  color: #f9e42e;
+  font-size: 24px;
+  line-height: 90px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+nav a:hover{
+  font-weight: 700;
+}
+
+.main{
+  color: #033048;
+  background-color: #f0efef;
+  padding-top: 20px;
+  min-width: 960px;
+  padding-bottom: 60px;
+}
+
+.left-column{
+  float: left;
+  width: 700px;
+  padding: 0 0 10px 10px;
+}
+
+.right-column{
+  float: right;
+  width: 240px;
+  padding: 0 0 10px 10px;
+}
+
+.main h2{
+  font-size: 40px;
+  font-weight: 700px;
+  padding-top: 20px;
+}
+
+.main h3{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.main p{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main ul{
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.main ul a{
+  text-decoration: none;
+  color: #033048;
+}
+.main ul a:hover{
+  font-weight: 700;
+}
+
+.main h4{
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.read-more{
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.read-more a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #033048;
+}
+.read-more a:hover{
+  font-weight: 700;
+}
+
+article{
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.top-article p{
+  color: #606161;
+  padding-top: 15px;
+}
+
+.bottom-article p{
+  color: #606161;
+  padding-top: 15px;
+}
+
+.top-article p:first-letter{
+  font-size: 60px;
+  font-weight: 700;
+  float: left;
+  padding-right: 10px;
+}
+
+.bottom-article p:first-letter{
+  font-size: 60px;
+  font-weight: 700;
+  float: left;
+  padding-right: 10px;
+}
+
+.right-column p{
+  font-size: 22px;
+  font-weight: 300;
+}
+.advertisements{
+  width: 240px;
+  background-color: white;
+  height: 400px;
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.sign-up{
+  clear: both;
+  margin: 0;
+  text-align: center;
+  background: #f9e42e;
+  padding: 75px;
+}
+.sign-up a{
+  text-decoration: none;
+  padding: 15px;
+  padding-right: 70px;
+  padding-left: 70px;
+  background: #033048;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+footer{
+  height: 200px;
+  background: #121212;
+  padding-top: 60px;
+}
+footer h2{
+  margin: 0;
+  color: yellow;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+.social-icons{
+  text-align: center;
+  padding-top: 30px;
+}
+.fb-icon{
+  width: 43px;
+  display: inline-block;
+}
+footer p{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
